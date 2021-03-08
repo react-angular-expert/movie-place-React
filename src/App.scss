@@ -1,0 +1,27 @@
+@import 'styles/mixins';
+
+.card-wrap {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  margin: 20px;
+  @include break-point($max-width: $md-min) {
+    grid-template-columns: 50% 50%;
+  }
+  @include break-point($max-width: $xs-min) {
+    grid-template-columns: 100%;
+  }
+  &-div {
+    height: 100%;
+  }
+}
+.card {
+  height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  &-break {
+    margin-top: auto;
+  }
+}

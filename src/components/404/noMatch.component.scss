@@ -1,0 +1,13 @@
+.nothing {
+  display: flex;
+  min-height: calc(100vh - 115px);
+  flex-direction: column;
+  margin-top: 55px;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 10em;
+    font-weight: bold;
+    color: #2C3E50;
+  }
+}

@@ -1,0 +1,51 @@
+@import 'styles/mixins';
+
+.carousel__wrap {
+  height: calc(100vh - 56px);
+  width: 100%;
+}
+.carousel__header {
+  font-size: 80px;
+  cursor: pointer;
+  @include break-point($max-width: $md-min) {
+    font-size: 40px;
+  }
+}
+.carousel__background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 56px);
+  width: 100%;
+  background-position: center;
+}
+.carousel__image {
+  display: none;
+}
+.gradient-img {
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg,rgba(255,0,0,0),rgba(18,25,79,.8));
+}
+
+.carousel {
+    height: 100%;
+    .carousel-inner {
+      height: 100%;
+    }
+    .carousel-item {
+      height: 100%;
+    }
+    .carousel-caption a {
+      text-decoration: none;
+    }
+    .carousel-caption h3 {
+      font-size: 80px;
+      cursor: pointer;
+      @include break-point($max-width: $md-min) {
+        font-size: 40px;
+      }
+    }
+}

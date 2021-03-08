@@ -1,0 +1,115 @@
+.genre-badge {
+  display: block;
+  background: #2C3E50;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 50px;
+  transition: all 0.5s ease-in;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff; }
+  .genre-badge-Action {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Action.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Adventure {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Adventure.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Animation {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Animation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Comedy {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Comedy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Crime {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Crime.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Documentary {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Documentary.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Drama {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Drama.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Family {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Family.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Fantasy {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Fantasy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-History {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/History.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Horror {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Horror.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Music {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Music.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Mystery {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Mystery.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Romance {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Romance.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Science {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Science.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-TV {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/TV.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Thriller {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Thriller.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-War {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/War.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge-Western {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)), url("/images/Western.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .genre-badge:hover {
+    height: 400px;
+    font-size: 70px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 50px;
+    position: relative; }

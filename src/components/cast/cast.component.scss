@@ -1,0 +1,30 @@
+@import 'styles/mixins';
+
+.cast {
+  display: flex;
+}
+.cast-wrap {
+  display: inline-block;
+  width: 10%;
+  margin: 1.25%;
+
+  .card {
+       width: 100%;
+       .card-img-top {
+         height: 283px;
+       }
+  }
+
+  @include break-point($max-width: $md-min) {
+    width: 20%;
+    margin: 2.5%;
+  }
+  @include break-point($max-width: $sm-min) {
+    width: 46%;
+    margin: 1%;
+  }
+  @include break-point($max-width: $xs-min) {
+    width: 96%;
+    margin: 2%;
+  }
+}

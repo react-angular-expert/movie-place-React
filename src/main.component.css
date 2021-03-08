@@ -1,0 +1,5 @@
+.wrap-container {
+  display: flex;
+  min-height: calc(100vh - 115px);
+  flex-direction: column;
+  margin-top: 55px; }

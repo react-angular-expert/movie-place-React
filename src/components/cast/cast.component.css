@@ -1,0 +1,23 @@
+.cast {
+  display: flex; }
+
+.cast-wrap {
+  display: inline-block;
+  width: 10%;
+  margin: 1.25%; }
+  .cast-wrap .card {
+    width: 100%; }
+    .cast-wrap .card .card-img-top {
+      height: 283px; }
+  @media screen and (max-width: 64rem) {
+    .cast-wrap {
+      width: 20%;
+      margin: 2.5%; } }
+  @media screen and (max-width: 48rem) {
+    .cast-wrap {
+      width: 46%;
+      margin: 1%; } }
+  @media screen and (max-width: 30rem) {
+    .cast-wrap {
+      width: 96%;
+      margin: 2%; } }

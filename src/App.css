@@ -1,0 +1,22 @@
+.card-wrap {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  margin: 20px; }
+  @media screen and (max-width: 64rem) {
+    .card-wrap {
+      grid-template-columns: 50% 50%; } }
+  @media screen and (max-width: 30rem) {
+    .card-wrap {
+      grid-template-columns: 100%; } }
+  .card-wrap-div {
+    height: 100%; }
+
+.card {
+  height: 100%; }
+
+.card-body {
+  display: flex;
+  flex-direction: column; }
+  .card-body-break {
+    margin-top: auto; }
